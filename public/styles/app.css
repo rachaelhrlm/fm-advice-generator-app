@@ -360,9 +360,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .relative{
   position: relative;
 }
-.-bottom-10{
-  bottom: -2.5rem;
-}
 .-bottom-5{
   bottom: -1.25rem;
 }
@@ -378,38 +375,8 @@ Ensure the default browser behavior of the `hidden` attribute.
 .h-screen{
   height: 100vh;
 }
-.h-20{
-  height: 5rem;
-}
-.h-8{
-  height: 2rem;
-}
 .h-10{
   height: 2.5rem;
-}
-.h-2{
-  height: 0.5rem;
-}
-.h-3{
-  height: 0.75rem;
-}
-.h-16{
-  height: 4rem;
-}
-.h-12{
-  height: 3rem;
-}
-.h-4{
-  height: 1rem;
-}
-.h-14{
-  height: 3.5rem;
-}
-.h-\[\.75rem\]{
-  height: .75rem;
-}
-.h-\[\.8rem\]{
-  height: .8rem;
 }
 .h-\[\.9rem\]{
   height: .9rem;
@@ -417,38 +384,8 @@ Ensure the default browser behavior of the `hidden` attribute.
 .w-full{
   width: 100%;
 }
-.w-20{
-  width: 5rem;
-}
-.w-8{
-  width: 2rem;
-}
 .w-10{
   width: 2.5rem;
-}
-.w-2{
-  width: 0.5rem;
-}
-.w-3{
-  width: 0.75rem;
-}
-.w-16{
-  width: 4rem;
-}
-.w-12{
-  width: 3rem;
-}
-.w-4{
-  width: 1rem;
-}
-.w-14{
-  width: 3.5rem;
-}
-.w-\[\.75rem\]{
-  width: .75rem;
-}
-.w-\[\.8rem\]{
-  width: .8rem;
 }
 .w-\[\.9rem\]{
   width: .9rem;
@@ -468,25 +405,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 .justify-center{
   justify-content: center;
 }
-.space-y-8 > :not([hidden]) ~ :not([hidden]){
-  --tw-space-y-reverse: 0;
-  margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(2rem * var(--tw-space-y-reverse));
-}
 .space-y-4 > :not([hidden]) ~ :not([hidden]){
   --tw-space-y-reverse: 0;
   margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(1rem * var(--tw-space-y-reverse));
-}
-.space-y-3 > :not([hidden]) ~ :not([hidden]){
-  --tw-space-y-reverse: 0;
-  margin-top: calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(0.75rem * var(--tw-space-y-reverse));
-}
-.space-y-5 > :not([hidden]) ~ :not([hidden]){
-  --tw-space-y-reverse: 0;
-  margin-top: calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));
 }
 .rounded-xl{
   border-radius: 0.75rem;
@@ -513,23 +435,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
-.pt-10{
-  padding-top: 2.5rem;
-}
-.pb-\[5rem\]{
-  padding-bottom: 5rem;
-}
-.pt-5{
-  padding-top: 1.25rem;
-}
 .pt-6{
   padding-top: 1.5rem;
-}
-.pt-3{
-  padding-top: 0.75rem;
-}
-.pb-3{
-  padding-bottom: 0.75rem;
 }
 .pb-10{
   padding-bottom: 2.5rem;
@@ -545,12 +452,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .uppercase{
   text-transform: uppercase;
-}
-.tracking-\[\.3rem\]{
-  letter-spacing: .3rem;
-}
-.tracking-\[\.1rem\]{
-  letter-spacing: .1rem;
 }
 .tracking-\[\.2rem\]{
   letter-spacing: .2rem;
@@ -585,67 +486,15 @@ Ensure the default browser behavior of the `hidden` attribute.
   .md\:w-\[540px\]{
     width: 540px;
   }
-  .md\:px-12{
-    padding-left: 3rem;
-    padding-right: 3rem;
-  }
-  .md\:px-8{
-    padding-left: 2rem;
-    padding-right: 2rem;
-  }
-  .md\:px-10{
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
-  }
-  .md\:px-9{
-    padding-left: 2.25rem;
-    padding-right: 2.25rem;
-  }
-  .md\:px-\[1\.75rem\]{
-    padding-left: 1.75rem;
-    padding-right: 1.75rem;
-  }
-  .md\:px-\[1\.8rem\]{
-    padding-left: 1.8rem;
-    padding-right: 1.8rem;
-  }
-  .md\:px-\[1\.9rem\]{
-    padding-left: 1.9rem;
-    padding-right: 1.9rem;
-  }
-  .md\:px-\[2rem\]{
-    padding-left: 2rem;
-    padding-right: 2rem;
-  }
-  .md\:px-\[2\.2rem\]{
-    padding-left: 2.2rem;
-    padding-right: 2.2rem;
-  }
-  .md\:px-\[2\.5rem\]{
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
-  }
-  .md\:px-\[2\.4rem\]{
-    padding-left: 2.4rem;
-    padding-right: 2.4rem;
-  }
-  .md\:px-\[2\.3rem\]{
-    padding-left: 2.3rem;
-    padding-right: 2.3rem;
-  }
-  .md\:px-\[1rem\]{
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
   .md\:px-\[1\.3rem\]{
     padding-left: 1.3rem;
     padding-right: 1.3rem;
   }
+  .md\:text-\[13px\]{
+    font-size: 13px;
+  }
   .md\:text-base{
     font-size: 1rem;
     line-height: 1.5rem;
-  }
-  .md\:text-\[13px\]{
-    font-size: 13px;
   }
 }
