@@ -1,0 +1,9 @@
+html {
+  color: hsl(193, 38%, 86%);
+  font-size: 28px;
+}
+
+body {
+  font-family: 'Manrope', sans-serif;
+  min-height: 100vh;
+}
