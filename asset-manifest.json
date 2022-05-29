@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/fm-advice-generator-app/static/js/main.75691a20.js",
+    "main.js": "/fm-advice-generator-app/static/js/main.a93bee32.js",
     "static/js/787.60818cf9.chunk.js": "/fm-advice-generator-app/static/js/787.60818cf9.chunk.js",
     "index.html": "/fm-advice-generator-app/index.html",
-    "main.75691a20.js.map": "/fm-advice-generator-app/static/js/main.75691a20.js.map",
+    "main.a93bee32.js.map": "/fm-advice-generator-app/static/js/main.a93bee32.js.map",
     "787.60818cf9.chunk.js.map": "/fm-advice-generator-app/static/js/787.60818cf9.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.75691a20.js"
+    "static/js/main.a93bee32.js"
   ]
 }
