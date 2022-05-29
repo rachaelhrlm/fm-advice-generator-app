@@ -363,6 +363,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .-bottom-5{
   bottom: -1.25rem;
 }
+.bottom-3{
+  bottom: 0.75rem;
+}
 .block{
   display: block;
 }
@@ -450,6 +453,16 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-\[24px\]{
   font-size: 24px;
 }
+.text-\[16px\]{
+  font-size: 16px;
+}
+.text-xs{
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+.text-\[13px\]{
+  font-size: 13px;
+}
 .uppercase{
   text-transform: uppercase;
 }
@@ -459,6 +472,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-primary-green{
   --tw-text-opacity: 1;
   color: hsl(150 100% 66% / var(--tw-text-opacity));
+}
+.text-primary-cyan{
+  --tw-text-opacity: 1;
+  color: hsl(193 38% 86% / var(--tw-text-opacity));
 }
 .transition-all{
   transition-property: all;
